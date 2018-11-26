@@ -59,7 +59,7 @@ public class JavaServer {
                 label = reader.readLine();
             }
 
-            String response = String.format("Flask server is up on %s, with label %s", hostname, label);
+            String response = String.format("Java server is up on %s, with label %s", hostname, label);
             final byte[] rawResponseBody = response.getBytes(StandardCharsets.UTF_8);
 
             Headers h = t.getResponseHeaders();
